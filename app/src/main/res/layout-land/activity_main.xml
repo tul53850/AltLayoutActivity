@@ -18,6 +18,7 @@
             android:layout_height="673dp"
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
+            android:contentDescription="profile picture"
             android:scaleType="center"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -41,7 +42,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
             android:paddingTop="8dp"
-            android:text="Extension"
+            android:text="@string/extension"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toEndOf="@+id/profile_photo"
             app:layout_constraintTop_toBottomOf="@+id/email" />
@@ -53,7 +54,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="32dp"
             android:paddingTop="8dp"
-            android:text="Email"
+            android:text="@string/email"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toEndOf="@+id/profile_photo"
             app:layout_constraintTop_toBottomOf="@+id/name" />
@@ -87,7 +88,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
             android:paddingTop="8dp"
-            android:text="Department"
+            android:text="@string/department"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toEndOf="@+id/profile_photo"
             app:layout_constraintTop_toBottomOf="@+id/extension" />
@@ -110,7 +111,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
             android:paddingTop="8dp"
-            android:text="Supervisor"
+            android:text="@string/supervisor"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toEndOf="@+id/profile_photo"
             app:layout_constraintTop_toBottomOf="@+id/department" />
@@ -132,7 +133,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:paddingTop="8dp"
-            android:text="Direct Reports"
+            android:text="@string/direct"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
